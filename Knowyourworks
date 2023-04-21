@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBn+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e464772688.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <div class="profile-container d-flex flex-row">
+                        <div class="icon-container">
+                            <i class="fa light fa-user icon-style"></i>
+                            <h1 class="heading">Profile</h1>
+                        </div>
+                        <div class="name">
+                            <h1 class="heading1">CAROLINE <br /> THOMPSON</h1>
+                            <p class="paragraph">ART DIRECTOR</p>
+                        </div>
+                        <div class="vertical"></div>
+                        <div class="text-container">
+                            <p class="paragraph1">Advertising campaigns are my forte.<br /> I have been in the industry for 6 years.</p>
+                            <ol class="list-details">
+                                <li class="list-text">Address:Los angeles, California</li>
+                                <li class="list-text">Phone: +(87) 834 2934 2344</li>
+                                <li class="list-text">Website: carolinethompson.com</li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <hr class="horizontal-line" />
+                    <div class="work-container d-flex flex-row">
+                        <div class="icon-container">
+                            <i class="fa light fa-briefcase icon-style"></i>
+                            <h1 class="heading">Work</h1>
+                        </div>
+                        <div class="details-container d-flex flex-column">
+                            <div class="d-flex flex-row">
+                                <h1 class="paragraph">2021-2023</h1>
+                                <div class="details pl-2">
+                                    <h1 class="paragraph2">Creative Minds Graphic Design Studio California • Senior Art Director</h1>
+                                    <p class="paragraph3">Generating and developing ideas to present to the client.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <h1 class="paragraph">2021-2022</h1>
+                                <div class="details pl-2">
+                                    <h1 class="paragraph2">Mega Giants publishing and Studio • Junior Art Director</h1>
+                                    <p class="paragraph3">Working on designs to produce an effective advertising campaign.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <h1 class="paragraph">2020-2021</h1>
+                                <div class="details pl-2">
+                                    <h1 class="paragraph2">Big Ideas Inc • Assistant Art Director</h1>
+                                    <p class="paragraph3">Commissioning specialists,such as artists to work on projects.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <hr class="horizontal-line" />
+                    <div class="skills-container d-flex flex-row">
+                        <div class="icon-container">
+                            <i class="fa light fa-clipboard icon-style"></i>
+
+                            <h1 class="heading">Skills & <br />Awards</h1>
+                        </div>
+                        <div class="skills">
+                            <ol class="list-details">
+                                <div class="d-flex flex-row">
+                                    <li class="skill mr-5 pb-2">UI/UX</li>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <li class="skill mr-2 pb-2">Growth Marketing</li>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <li class="skill mr-4 pb-2">Typography</li>
+
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <li class="skill mr-2 pb-2">Video Production</li>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <li class="skill mr-4 pb-2">Print Design</li>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                    <div class="rating"></div>
+                                </div>
+                            </ol>
+                        </div>
+                        <div class="vertical-line"></div>
+
+
+                        <div class="awards d-flex flex-column pl-4">
+                            <div class="d-flex flex-row">
+                                <h1 class="paragraph">2019</h1>
+                                <div class="details pl-2">
+                                    <h1 class="paragraph2">Suiton Design Awards</h1>
+                                    <p class="paragraph3">10 Graphic Designer</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <h1 class="paragraph">2019</h1>
+                                <div class="details pl-2">
+                                    <h1 class="paragraph2">Graphic London Award</h1>
+                                    <p class="paragraph3">Winning Entry:Poster Design</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <h1 class="paragraph">2019</h1>
+                                <div class="details pl-2">
+                                    <h1 class="paragraph2">LA Creatives Award</h1>
+                                    <p class="paragraph3">Winning Entry:Ad campaign</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr class="horizontal-line" />
+                    <div class="interests-container d-flex flex-row">
+
+                        <div class="icon-container">
+                            <i class="fa light fa-lightbulb icon-style"></i>
+
+                            <h1 class="heading">Interests</h1>
+                        </div>
+
+                        <div class="icon-list-container d-flex flex-row">
+                            <div class="d-flex flex-column ml-2 mr-2">
+                                <div class="icon-background">
+                                    <i class="fa light fa-desktop icons"></i>
+                                </div>
+                                <h1 class="icon-name">Internet</h1>
+                            </div>
+
+                            <div class="d-flex flex-column ml-2 mr-2">
+                                <div class="icon-background">
+                                    <i class="fa regular fa-pencil icons"></i>
+                                </div>
+                                <h1 class="icon-name">Sketching</h1>
+                            </div>
+                            <div class="d-flex flex-column ml-2 mr-2">
+                                <div class="icon-background">
+                                    <i class="fa solid fa-desktop icons"></i>
+                                </div>
+                                <h1 class="icon-name">Movies</h1>
+                            </div>
+                            <div class="d-flex flex-column ml-2 mr-2">
+                                <div class="icon-background">
+                                    <i class="fa light fa-podcast icons"></i>
+                                </div>
+                                <h1 class="icon-name">Music</h1>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <hr class="horizontal-line" />
+                    <div class="Education-container d-flex flex-row m-2">
+                        <div class="icon-container">
+                            <i class="fa light fa-book icon-style"></i>
+                            <h1 class="heading">Education</h1>
+                        </div>
+                        <div class="d-flex flex-column pl-3">
+                            <div class="d-flex flex-row">
+                                <h1 class="paragraph">2016-2020</h1>
+                                <div class="details pl-2">
+                                    <h1 class="paragraph2">Alabama College of Design and Technology • Cum Laude</h1>
+                                    <p class="paragraph3">Bachelor of Fine Arts Major in Advertising</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <h1 class="paragraph">2013-2016</h1>
+                                <div class="details pl-2">
+                                    <h1 class="paragraph2">Helena All Girls Senior Highschool • Valedictorian</h1>
+                                    <p class="paragraph3">President of Art and Design Club</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #FF8A8A;
+
+
+    background-size: cover;
+}
+
+.profile-container {
+    padding-bottom: 0px;
+}
+
+.icon-container {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    border-width: 2px;
+    border-color: #12022f;
+    border-style: solid;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.icon-style {
+    color: #12022f;
+    padding-top: 10px;
+
+}
+
+.heading {
+    color: #12022f;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 10px;
+    padding-top: 30px;
+
+}
+
+.heading1 {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 15px;
+
+}
+
+.paragraph {
+    font-family: "Roboto";
+    font-size: 8px;
+
+}
+
+.vertical {
+    border-left: 1px solid #12022f;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.vertical-line {
+    border-left: 1px solid #12022f;
+    margin-left: 10px;
+
+    text-align: center;
+}
+
+
+.paragraph1 {
+    font-family: "Roboto";
+    font-size: 6px;
+    padding-top: 15px;
+    padding-left: 20px;
+
+}
+
+
+.list-details {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 0px;
+
+
+}
+
+.list-text {
+    font-family: "Roboto";
+    font-size: 7px;
+    padding-left: 15px;
+}
+
+.horizontal-line {
+    background-color: #12022f;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.paragraph2 {
+    font-family: "Roboto";
+    font-size: 6px;
+    font-weight: bold;
+    color: #12022f;
+    padding-bottom: 0px;
+}
+
+.paragraph3 {
+    font-size: 6px;
+    font-family: "Roboto";
+    color: #12022f;
+    padding: 0px;
+}
+
+.heading3 {
+    font-size: 8px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.skill {
+    font-family: "Roboto";
+    font-size: 7px;
+
+}
+
+
+.icon-background {
+    background-color: #12022f;
+    height: 38px;
+    width: 40px;
+    border-radius: 60px;
+    text-align: center;
+
+}
+
+.icons {
+    color: #FF8A8A;
+    padding-top: 10px;
+}
+
+.icon-name {
+    font-family: "Roboto";
+    font-size: 8px;
+    color: #12022f;
+    padding: 5px;
+}
+
+.rating {
+    background-color: #12022f;
+    height: 5px;
+    width: 5px;
+    border-radius: 60px;
+    margin-left: 20px;
+    margin: 2px;
+}
